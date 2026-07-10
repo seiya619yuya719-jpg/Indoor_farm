@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>室内農業シミュレーター</title>
+</head>
+<body>
+    <h1>室内農業シミュレーター</h1>
+    <div>
+        <label>肥料の量（チッソ）: <span id="fertilizer-value">50</span></label><br>
+        <input type="range" id="fertilizer" min="0" max="100" value="50">
+    </div>
+    <br>
+    <div id="farm-field">
+        <h3>現在の野菜の状態：</h3>
+        <p id="plant-status">🌱 苗の状態（まだ肥料が必要です）</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
